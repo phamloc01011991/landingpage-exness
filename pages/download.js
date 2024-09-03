@@ -29,10 +29,10 @@ export default function Download() {
 
     QRCode.toCanvas(
       ios,
-      "itms-services://?action=download-manifest&amp;url=https://exessfinance.net/app.plist",
+      "itms-services://?action=download-manifest&amp;url=https://exessfinance.app/app.plist",
       { width: 200 }
     );
-    QRCode.toCanvas(android, "https://exessfinance.net/app.apk", {
+    QRCode.toCanvas(android, "https://exessfinance.app/app.apk", {
       width: 200,
     });
   }, []);
