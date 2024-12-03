@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps, mainMenu }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.js");
     import("bootstrap/js/src/collapse");
-    // import("../lib/script");
+    // import("../lib/scr ipt");
 
     const showLoader = () => {
       setIsLoading(true);
@@ -125,7 +125,7 @@ function MyApp({ Component, pageProps, mainMenu }) {
 
       {!isLoading && pageLayout}
 
-      {/* <script src="../lib/script.js"></script> */}
+      {/* <scriptd src="../lib/script.js"></scriptd> */}
     </>
   );
 }
