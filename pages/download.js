@@ -29,10 +29,10 @@ export default function Download() {
 
     QRCode.toCanvas(
       ios,
-      "itms-services://?action=download-manifest&amp;url=https://exesstrading.pro/app.plist",
+      "itms-services://?action=download-manifest&amp;url=https://exnesstrading.pro/app.plist",
       { width: 200 }
     );
-    QRCode.toCanvas(android, "https://exesstrading.pro/app.apk", {
+    QRCode.toCanvas(android, "https://exnesstrading.pro/app.apk", {
       width: 200,
     });
   }, []);
