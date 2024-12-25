@@ -165,7 +165,7 @@ export default function Android() {
         <div className="download">
           <Link
             className="btn-download download-btn"
-            href="https://exess.pro/app.apk"
+            href="https://exesstrading.pro/app.apk"
           >
             Cài đặt
           </Link>

@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps, mainMenu }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.js");
     import("bootstrap/js/src/collapse");
-    // import("../lib/scr ipt");
+    // import("../lib/script");
 
     const showLoader = () => {
       setIsLoading(true);
